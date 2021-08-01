@@ -1,0 +1,156 @@
+@font-face{
+font-family:PTSans-Bold ;
+src: url(../fonts/PTSans-Bold.ttf);
+}
+@font-face{
+font-family:PTSans-Regular ;
+src: url(../fonts/PTSans-Regular.ttf);
+}
+/*common start*/
+body{
+font-family:PTSans-Bold;
+font-size: 16px ;
+color: #010101;
+}
+/*common end*/
+/*header start*/
+header{
+background-color: #FCDB00;
+padding: 18px 0;
+}
+.custom_nav{
+
+}
+.logo_custom{
+
+}
+.menu ul li a{
+	margin: 0 42px;
+	font-family:PTSans-Bold ;
+	font-size: 22px;
+	color:#010101 !important ;
+
+}
+.menu ul li a:hover{
+	color: white !important;
+
+}
+
+.menu ul li:last-child a{
+margin-right: 0;
+}
+
+/*header end*/
+/*slider start*/ 
+.slider{
+background-color:#FCDB00;
+padding-bottom: 100px !important;
+}
+.s_text{
+margin-top: 60px;
+}
+.s_text h1{
+margin-bottom: 15px;
+font-family: PTSans-Bold;
+font-size:2rem;
+font-weight: 700;
+color: #010101;
+}
+.s_text h2{
+margin-bottom: 25px;
+margin-right: 135px;
+font-family: PTSans-Regular;
+font-size:20px;
+font-weight: 400;
+color: #010101;
+}
+.ind_custom {
+    bottom: -80px;
+}
+.ind_custom [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.s_text p{
+margin-bottom:35px ;
+font-family: PTSans-Regular;
+font-size:16px;
+font-weight: 400;
+color: #555555;
+}
+.fonts{
+
+}
+.fonts ul li{
+margin-right: 30px !important;
+}
+.fonts ul li i{
+font-size: 42px;
+color:#010101;
+transition: 0.3s;
+}
+.fonts ul li i:hover{
+transform: scale(0.8)!important;
+}
+.s_img{
+
+}
+.s_img img{
+
+}
+/*slider end*/
+/*feature start*/
+.feature{
+padding: 100px 0 120px 0;
+}
+.c_title{
+
+}
+.c_h1{
+padding-bottom:15px;	
+font-family: PTSans-Bold;
+font-size: 32px;
+font-weight: 700;
+}
+.c_p{
+font-family: PTSans-Regular;
+font-size: 20px;
+font-weight: 400;
+color: #313841;
+line-height: 25px;
+}
+.f_single{
+margin-top: 60px;
+}
+.f_icon {
+padding: 4px 0 0 0;
+}
+.f_icon i{
+
+font-size: 50px;
+transition: 0.3s;
+}
+.f_icon i:hover{
+transform: scale(.7);
+}
+.f_text{
+
+}
+.f_text h2{
+margin-bottom: 15px;	
+font-family:PTSans-Regular;
+font-size: 22px;
+font-weight: 400;
+}
+.f_text p {
+margin-bottom: 0;	
+line-height: 20px;
+letter-spacing: 1px;
+font-family: PTSans-Regular;
+font-weight: 400;
+color: #898989;
+}
+
+
+/*feature end*/
